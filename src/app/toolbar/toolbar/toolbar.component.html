@@ -1,1 +1,30 @@
-<p>First commit</p>
+<mat-toolbar>
+  <div class="content flex relative justify-between items-center w-full h-full">
+    <div class="facebook__logo flex">
+      <img class="logo cursor-pointer" src="./assets/images/facebook-logo.png" alt="Logo do facebook">
+      <div class="search__container ml-2">
+        <div class="search__content p-2.5">
+          <button class="cursor-text"> <fa-icon class="cursor-default ml-1 mr-2 text-sm"
+              [icon]="icons.search"></fa-icon>Pesquisar no Facebook</button>
+        </div>
+      </div>
+    </div>
+    <div class="navegation__container flex absolute justify-around w-full">
+      <div class="navegation__content">
+        <button class="navegation__button"><fa-icon [icon]="icons.homePage"></fa-icon></button>
+        <button class="navegation__button"><fa-icon [icon]="icons.live"></fa-icon></button>
+        <button class="navegation__button"><fa-icon [icon]="icons.market"></fa-icon></button>
+        <button class="navegation__button"><fa-icon [icon]="icons.groups"></fa-icon></button>
+        <button class="navegation__button"><fa-icon [icon]="icons.games"></fa-icon></button>
+      </div>
+    </div>
+    <div class="profile__actions flex items-center justify-center">
+      <div class="actions__content flex gap-2">
+        <button class="action__button"><fa-icon [icon]="icons.menu"></fa-icon> <fa-icon [icon]="icons.menu"></fa-icon> <fa-icon [icon]="icons.menu"></fa-icon></button>
+        <button class="action__button"><fa-icon [icon]="icons.messages"></fa-icon></button>
+        <button class="action__button"><fa-icon [icon]="icons.notifications"></fa-icon></button>
+        <button class="action__button profile__picture"> <img src="./assets/images/profile.jpg" alt="Foto de perfil"></button>
+      </div>
+    </div>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: text;
+}
+
+.search__content {
+  width: 240px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #65676B;
+  border-radius: 30px;
+  background-color: #F0F2F5;
+}
+
+.profile__picture img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.action__button {
+  width: 40px;
+  height: 40px;
+  background-color: #D8DADF;
+  border-radius: 50%;
+}
