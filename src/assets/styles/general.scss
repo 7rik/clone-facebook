@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+//  TOOLBAR
+
 .search__container {
   display: flex;
   justify-content: center;
@@ -27,9 +29,20 @@
   border-radius: 50%;
 }
 
+.navegation__button {
+  padding: 8px;
+  border-radius: 10px;
+  color: #606266;
+}
+
+.navegation__button:hover {
+  background-color: #F2F2F2;
+  transition: 0.3s;
+}
+
 .action__button {
   width: 40px;
   height: 40px;
-  background-color: #D8DADF;
+  background-color: #E4E6EB;
   border-radius: 50%;
 }
