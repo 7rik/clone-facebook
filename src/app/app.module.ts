@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalPageComponent } from './principal-page/principal-page/principal-page.component';
 import { MaterialModule } from './material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PrincipalViewComponent } from './principal-view/principal-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
-    PrincipalPageComponent
+    PrincipalPageComponent,
+    PrincipalViewComponent
   ],
   imports: [
     BrowserModule,
